@@ -1,0 +1,516 @@
+/* popup */
+
+.overlay{
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 200%;
+	z-index: 99999;
+	background: rgba(0,0,0,0.5);
+}
+.popup{
+	position: fixed;
+	left: 50%;
+	top: 23%;
+	height: 350px;
+	max-width: 750px;
+	width: 100%;
+	background: #fff;
+	transform: translateX(-50%);
+		&__main{
+			&--title{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #ffffff;
+				width: 750px;
+				height: 65px;
+				background-color: #ff9d00;
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 20px;
+				width: 100%;
+				text-transform: uppercase;
+			}
+		}
+		&__close{
+			cursor: pointer;
+			top: -8%;
+			right: -2%;
+			position: absolute;
+			color: #fff;
+			font-size: 26px;
+		}
+		&__info{
+			padding: 35px 85px;
+			background: url(../img/popup-bg.jpg) no-repeat center top;
+			background-size: cover;
+			height: 220px;
+			color: #fff;
+			text-align: center;
+				&--title{
+					margin-top: 10px;
+					margin-bottom: 25px;
+					font-size: 30px;
+					font-weight: 400;
+					line-height: 27px;
+					& span{
+						font-size: 24px;
+					}
+				}
+				&--text{
+					margin-bottom: 20px;
+					font-size: 18px;
+					font-weight: 300;
+					line-height: 18px;
+				}
+				&--input{
+					padding-left: 18px;
+					margin-right: 10px;
+					max-width: 365px;
+					width: 100%;
+					height: 55px;
+					border-radius: 3px;
+					color: #373737;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 42px;
+				}
+				&--button{
+					cursor: pointer;
+					height: 55px;
+					padding: 0 30px;
+					background: #ff9d00;
+					border-radius: 3px;
+					color: #ffffff;
+					font-size: 15px;
+					font-weight: 500;
+					line-height: 22px;
+					transition: all 0.5s;
+						&:hover{
+							background: darken(#ff9d00, 8%);
+							transition: all 0.5s;
+						}
+				}
+				&--description{
+					margin-top: 15px;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 14px;
+				}
+		}
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+.popup{
+	position: fixed;
+	left: 50%;
+	top: 15%;
+	height: 340px;
+	max-width: 300px;
+	width: 100%;
+	background: #fff;
+	transform: translateX(-50%);
+		&__main{
+			&--title{
+				border: 1px solid #eee;
+				border-bottom: none;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #ffffff;
+				width: 750px;
+				height: 45px;
+				background-color: #ff9d00;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 20px;
+				width: 100%;
+				text-transform: uppercase;
+			}
+		}
+		&__close{
+			cursor: pointer;
+			top: -8%;
+			right: -2%;
+			position: absolute;
+			color: #fff;
+			font-size: 26px;
+		}
+		&__info{
+			padding: 15px 15px;
+			background: url(../img/popup-bg.jpg) no-repeat center top;
+			background-size: cover;
+			height: 340px;
+			border: 1px solid #eee;
+			border-top: none;
+			color: #fff;
+			text-align: center;
+				&--title{
+					margin-top: 10px;
+					margin-bottom: 15px;
+					font-size: 22px;
+					font-weight: 400;
+					line-height: 24px;
+					& span{
+						font-size: 14px;
+					}
+				}
+				&--text{
+					margin-bottom: 20px;
+					font-size: 16px;
+					font-weight: 300;
+					line-height: 18px;
+				}
+				&--input{
+					padding-left: 0;
+				    margin-right: 10px;
+				    max-width: 365px;
+				    width: 95%;
+				    text-align: center;
+				    height: 40px;
+				    display: block;
+				    margin: 0 auto;
+				}
+				&--button{
+					margin-top: 10px;
+					cursor: pointer;
+					height: 55px;
+					padding: 0 30px;
+					background: #ff9d00;
+					border-radius: 3px;
+					color: #ffffff;
+					font-size: 15px;
+					font-weight: 500;
+					line-height: 22px;
+					transition: all 0.5s;
+						&:hover{
+							background: darken(#ff9d00, 8%);
+							transition: all 0.5s;
+						}
+				}
+				&--description{
+					margin-top: 15px;
+					font-size: 12px;
+					font-weight: 300;
+					line-height: 14px;
+				}
+		}
+}
+
+}
+
+
+@media (min-width: 480px) and (max-width: 567px) {
+
+.popup{
+	position: fixed;
+	left: 50%;
+	top: 15%;
+	height: 340px;
+	max-width: 300px;
+	width: 100%;
+	background: #fff;
+	transform: translateX(-50%);
+		&__main{
+			&--title{
+				border: 1px solid #eee;
+				border-bottom: none;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #ffffff;
+				width: 750px;
+				height: 45px;
+				background-color: #ff9d00;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 20px;
+				width: 100%;
+				text-transform: uppercase;
+			}
+		}
+		&__close{
+			cursor: pointer;
+			top: -8%;
+			right: -2%;
+			position: absolute;
+			color: #fff;
+			font-size: 26px;
+		}
+		&__info{
+			padding: 15px 15px;
+			background: url(../img/popup-bg.jpg) no-repeat center top;
+			background-size: cover;
+			height: 340px;
+			border: 1px solid #eee;
+			border-top: none;
+			color: #fff;
+			text-align: center;
+				&--title{
+					margin-top: 10px;
+					margin-bottom: 15px;
+					font-size: 22px;
+					font-weight: 400;
+					line-height: 24px;
+					& span{
+						font-size: 14px;
+					}
+				}
+				&--text{
+					margin-bottom: 20px;
+					font-size: 16px;
+					font-weight: 300;
+					line-height: 18px;
+				}
+				&--input{
+					padding-left: 0;
+				    margin-right: 10px;
+				    max-width: 365px;
+				    width: 95%;
+				    text-align: center;
+				    height: 40px;
+				    display: block;
+				    margin: 0 auto;
+				}
+				&--button{
+					margin-top: 10px;
+					cursor: pointer;
+					height: 55px;
+					padding: 0 30px;
+					background: #ff9d00;
+					border-radius: 3px;
+					color: #ffffff;
+					font-size: 15px;
+					font-weight: 500;
+					line-height: 22px;
+					transition: all 0.5s;
+						&:hover{
+							background: darken(#ff9d00, 8%);
+							transition: all 0.5s;
+						}
+				}
+				&--description{
+					margin-top: 15px;
+					font-size: 12px;
+					font-weight: 300;
+					line-height: 14px;
+				}
+		}
+}
+	
+}
+
+
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+.overlay{
+	height: 200%;
+}
+.popup{
+	position: fixed;
+	left: 50%;
+	top: 12%;
+	height: 300px;
+	max-width: 450px;
+	width: 100%;
+	background: #fff;
+	transform: translateX(-50%);
+		&__main{
+			&--title{
+				border: 1px solid #eee;
+				border-bottom: none;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #ffffff;
+				width: 750px;
+				height: 45px;
+				background-color: #ff9d00;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 20px;
+				width: 100%;
+				text-transform: uppercase;
+			}
+		}
+		&__close{
+			cursor: pointer;
+			top: -8%;
+			right: -2%;
+			position: absolute;
+			color: #fff;
+			font-size: 26px;
+		}
+		&__info{
+			padding: 15px 15px;
+			background: url(../img/popup-bg.jpg) no-repeat center top;
+			background-size: cover;
+			height: 340px;
+			border: 1px solid #eee;
+			border-top: none;
+			color: #fff;
+			text-align: center;
+				&--title{
+					margin-top: 10px;
+					margin-bottom: 15px;
+					font-size: 22px;
+					font-weight: 400;
+					line-height: 24px;
+					& span{
+						font-size: 14px;
+					}
+				}
+				&--text{
+					margin-bottom: 20px;
+					font-size: 16px;
+					font-weight: 300;
+					line-height: 18px;
+				}
+				&--input{
+					padding-left: 0;
+				    margin-right: 10px;
+				    max-width: 365px;
+				    width: 95%;
+				    text-align: center;
+				    height: 40px;
+				    display: block;
+				    margin: 0 auto;
+				}
+				&--button{
+					margin-top: 10px;
+					cursor: pointer;
+					height: 55px;
+					padding: 0 30px;
+					background: #ff9d00;
+					border-radius: 3px;
+					color: #ffffff;
+					font-size: 15px;
+					font-weight: 500;
+					line-height: 22px;
+					transition: all 0.5s;
+						&:hover{
+							background: darken(#ff9d00, 8%);
+							transition: all 0.5s;
+						}
+				}
+				&--description{
+					margin-top: 15px;
+					font-size: 12px;
+					font-weight: 300;
+					line-height: 14px;
+				}
+		}
+}
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.popup{
+	position: fixed;
+	left: 50%;
+	top: 15%;
+	height: 340px;
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	transform: translateX(-50%);
+		&__main{
+			&--title{
+				border-bottom: none;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #ffffff;
+				width: 750px;
+				height: 45px;
+				background-color: #ff9d00;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 20px;
+				width: 100%;
+				text-transform: uppercase;
+			}
+		}
+		&__close{
+			cursor: pointer;
+			top: -8%;
+			right: -2%;
+			position: absolute;
+			color: #fff;
+			font-size: 26px;
+		}
+		&__info{
+			padding: 15px 15px;
+			background: url(../img/popup-bg.jpg) no-repeat center top;
+			background-size: cover;
+			height: 340px;
+			border-top: none;
+			color: #fff;
+			text-align: center;
+				&--title{
+					margin-top: 10px;
+					margin-bottom: 15px;
+					font-size: 22px;
+					font-weight: 400;
+					line-height: 24px;
+					& span{
+						font-size: 14px;
+					}
+				}
+				&--text{
+					margin-bottom: 20px;
+					font-size: 16px;
+					font-weight: 300;
+					line-height: 18px;
+				}
+				&--input{
+					padding-left: 0;
+				    margin-right: 10px;
+				    max-width: 365px;
+				    width: 95%;
+				    text-align: center;
+				    height: 40px;
+				    display: block;
+				    margin: 0 auto;
+				}
+				&--button{
+					margin-top: 10px;
+					cursor: pointer;
+					height: 55px;
+					padding: 0 30px;
+					background: #ff9d00;
+					border-radius: 3px;
+					color: #ffffff;
+					font-size: 15px;
+					font-weight: 500;
+					line-height: 22px;
+					transition: all 0.5s;
+						&:hover{
+							background: darken(#ff9d00, 8%);
+							transition: all 0.5s;
+						}
+				}
+				&--description{
+					margin-top: 15px;
+					font-size: 12px;
+					font-weight: 300;
+					line-height: 14px;
+				}
+		}
+}
+
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}

@@ -1,0 +1,288 @@
+#advantages{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #f4f4f4;
+}
+.advantages{
+	&__main{
+		&--row{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 35px;
+		}
+		&--block{
+			padding-left: 15px;
+			padding-right: 15px;
+			max-width: 295px;
+			width: 100%;
+			text-align: center;
+		}
+		&--title{
+			color: #f39003;
+			font-size: 36px;
+			font-weight: 900;
+			margin-bottom: 10px;
+		}
+		&--text{
+			color: #373737;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+	&__row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+	&__img{
+		
+	}
+	&__block{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 25px 13px;
+		margin-bottom: 30px;
+		max-width: 280px;
+		width: 100%;
+		background: #fff;
+			&--info{
+				margin-left: 10px;
+			}
+			&--title{
+				margin-bottom: 7px;
+				font-size: 15px;
+				font-weight: 700;
+			}
+			&--text{
+				color: #373737;
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 19px;
+			}
+	}
+}
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+#advantages{
+	padding-top: 40px;
+	width: 100%;
+}
+.advantages{
+
+	&__main{
+
+		&--row{
+			flex-wrap: wrap;
+			margin-bottom: 5px;
+			justify-content: center;
+		}
+		&--title{
+			font-size: 28px;
+			font-weight: 900;
+			margin-bottom: 5px;
+		}
+		&--text{
+			font-size: 12px;
+			line-height: 18px;
+		}
+		&--block{
+			margin-bottom: 25px;
+		}
+	}
+	&__row{
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+	&__block{
+		margin-bottom: 10px;
+			&--title{
+				font-size: 15px;
+				font-weight: 500;
+				margin-bottom: 5px;
+			}
+			&--text{
+				font-size: 12px;
+				font-weight: 300;
+				line-height: 15px;				
+			}
+	}
+}
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 567px) {
+
+#advantages{
+	padding-top: 40px;
+	width: 100%;
+}
+.advantages{
+
+	&__main{
+
+		&--row{
+			flex-wrap: wrap;
+			margin-bottom: 5px;
+			justify-content: center;
+		}
+		&--title{
+			font-size: 29px;
+			font-weight: 900;
+			margin-bottom: 5px;
+		}
+		&--text{
+			font-size: 14px;
+			line-height: 18px;
+		}
+		&--block{
+			margin-bottom: 25px;
+		}
+	}
+	&__row{
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+	&__block{
+		margin-bottom: 10px;
+		max-width: 350px;
+			&--title{
+				font-size: 16px;
+				font-weight: 500;
+				margin-bottom: 10px;
+			}
+			&--text{
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 15px;				
+			}
+	}
+}
+
+}
+
+
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+
+#advantages{
+	padding-top: 40px;
+	width: 100%;
+}
+.advantages{
+
+	&__main{
+
+		&--row{
+			flex-wrap: wrap;
+			margin-bottom: 5px;
+			justify-content: center;
+		}
+		&--title{
+			font-size: 29px;
+			font-weight: 900;
+			margin-bottom: 5px;
+		}
+		&--text{
+			font-size: 14px;
+			line-height: 18px;
+		}
+		&--block{
+			margin-bottom: 25px;
+		}
+	}
+	&__row{
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 0;
+	}
+	&__block{
+		margin-bottom: 20px;
+		max-width: 290px;
+			&--title{
+				font-size: 16px;
+				font-weight: 500;
+				margin-bottom: 10px;
+			}
+			&--text{
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 15px;				
+			}
+	}
+}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#advantages{
+	padding-top: 40px;
+	width: 100%;
+}
+.advantages{
+
+	&__main{
+
+		&--row{
+			flex-wrap: wrap;
+			margin-bottom: 5px;
+			justify-content: center;
+		}
+		&--title{
+			font-size: 29px;
+			font-weight: 900;
+			margin-bottom: 5px;
+		}
+		&--text{
+			font-size: 14px;
+			line-height: 18px;
+		}
+		&--block{
+			margin-bottom: 25px;
+		}
+	}
+	&__row{
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 0;
+	}
+	&__block{
+		margin-bottom: 30px;
+		max-width: 320px;
+			&--title{
+				font-size: 17px;
+				font-weight: 500;
+				margin-bottom: 10px;
+			}
+			&--text{
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 15px;				
+			}
+	}
+}
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+	#advantages{
+		height: 515px;
+	}
+}

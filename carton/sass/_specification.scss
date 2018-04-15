@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ position: relative;
+ width: 100%;
+ height: 100%;
+ font-family: Roboto;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+button,
+input{
+	outline: none;
+	border: none;
+}
+.container{
+	max-width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.slick-list{
+	max-width: 875px;
+	width: 100%;
+}
+.slick{
+	&-prev{
+		width: 10px;
+		height: 47px;
+		background: url(../img/arrow-left.png) no-repeat;
+		color: transparent;
+		z-index: 9;
+		left: -0.5%;
+		right: 0;
+		top: 45%;
+		transition: all 0.6s;
+		&:hover{
+			transform: translateX(-2px) scale(1);
+			transition: all 0.6s;
+		}
+	}
+	&-next{
+		width: 10px;
+		height: 47px;
+		background: url(../img/arrow-right.png) no-repeat;
+		color: transparent;
+		z-index: 9;
+		left: 98%;
+		right: 0;
+		top: 45%;
+		transition: all 0.6s;
+		&:hover{
+			transform: translateX(2px) scale(1);
+			transition: all 0.6s;
+		}
+	}
+	&-arrow{
+		position: absolute;
+	}
+}
+.menu__toggle{
+	display: none;
+	text-align: right;
+}
+.slick-dots {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.slick-dots li button {
+ 	width: 19px;
+	height: 19px;
+	border: 1px dashed #23aae2;
+	color: transparent;
+	background: transparent;
+	margin: 10px;
+	margin-top: 30px;
+	border-radius: 50%;
+}
+.slick-dots li.slick-active button {
+  color: transparent;
+  background-color: #23aae2;
+}
