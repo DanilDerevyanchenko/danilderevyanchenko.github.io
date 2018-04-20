@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.reviews__slider').slick({
     dots: true,
-    arrows: true,
+    arrows: false,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -32,7 +32,7 @@ $(document).ready(function(){
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: true,
-          dots: true,
+          dots: true
         }
       },
       {
@@ -40,8 +40,9 @@ $(document).ready(function(){
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+           infinite: true,
           arrows: true,
-          dots:true,
+          dots:true
         }
       },
       {
@@ -49,8 +50,9 @@ $(document).ready(function(){
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: true,
-          dots: true,
+           infinite: true,
+          arrows: false,
+          dots: true
         }
       }
       // You can unslick at a given breakpoint now by adding:
@@ -58,16 +60,7 @@ $(document).ready(function(){
       // instead of a settings object
     ]
   });
-
-  $('.menu__toggle').click(function() {
-		$('.main__list').slideToggle(500);
-  });
-  	$(window).resize(function() {
-  		if($(window).width() > 991 ){
-			     $('.main__list').removeAttr('style');
-          }
-  		  });
-  	 });
+});
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -85,19 +78,19 @@ $(function() {
 });
 
 $(document).ready(function() {
-      var link        = $('.menu-link');
-      var link_active = $('.menu-link__active');
-      var  menu       = $('.menu');
-      var nav_link    = $('.menu a');
-      link.click(function(){
-        link.toggleClass('menu-link__active');
-        menu.toggleClass('menu_active');
+  var link        = $('.menu__toggle');
+  var link_active = $('.menu__toggle-active');
+  var  menu       = $('.main__nav');
+  var nav_link    = $('.main__link');
+    link.click(function(){
+        link.toggleClass('menu__toggle-active');
+        menu.toggleClass('main__nav_active');
       });
-      nav_link.click(function(){
-        link.toggleClass('menu-link__active');
-        menu.toggleClass('menu_active');
-      });
+    nav_link.click(function(){
+      link.toggleClass('menu__toggle-active');
+      menu.toggleClass('main__nav_active');
     });
+});
 
 $(function(){
    $('.results__contact--button').on("click", function(){
@@ -120,8 +113,7 @@ $(document).ready(function() {
 $(document).ready(function () {
     var menu     = $('.heading');
     var logo     = $('.logo__title');
-    var l     = $('.main__link');
-    var nu   = $('.header__number');
+    var link     = $('.main__link');
     var adaptive = $(window).width();
 
    $(window).scroll(function() {
