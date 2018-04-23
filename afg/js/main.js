@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.reviews__slider').slick({
     dots: true,
-    arrows: false,
+    arrows: true,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
