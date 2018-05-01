@@ -65,7 +65,7 @@ input {
 #header {
   width: 100%;
   position: relative;
-  height: 700px;
+  height: 666px;
   background: url("../img/banner.jpg") no-repeat top fixed;
   background-size: cover;
   z-index: 0;
@@ -540,9 +540,12 @@ input {
 /* Features */
 
 #features {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 100px;
   color: #404040;
+  background: url("../img/bg.png");
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 .features__main--title {
@@ -571,6 +574,7 @@ input {
 
 .features__block {
   max-width: 360px;
+  margin: 0 10px;
   width: 100%;
   border-radius: 5px;
   display: -webkit-box;
@@ -583,8 +587,10 @@ input {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 30px 50px;
+  padding: 40px 50px;
   background: #fff;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 .features__img {
@@ -595,7 +601,7 @@ input {
   text-align: center;
   color: #555555;
   font-family: "Roboto Slab";
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 24px;
 }
@@ -740,7 +746,8 @@ input {
 .portfolio-container {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: #fff;
+  background-color: #fff;
+  background-image: url("../img/bg.png");
 }
 
 .portfolio__title {
@@ -1050,6 +1057,7 @@ input {
 #skills {
   padding-top: 80px;
   padding-bottom: 80px;
+  background: url("../img/bg.png");
 }
 
 .skills__title {

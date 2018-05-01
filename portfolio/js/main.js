@@ -22,6 +22,18 @@ $(document).ready(function() {
   $('.popup__close').on("click", function() {
     $('.overlay').fadeOut(300);
   });
+  // ajax
+
+  $("#form").submit(function() {
+    $.ajax({
+      type: "POST",
+      url: "mail.php",
+      data: $(this).serialize()
+    }).done(function() {
+      alert("Спасибо за заявку!");
+    });
+    return false;
+  });
 });
 
 $(document).ready(function() {
