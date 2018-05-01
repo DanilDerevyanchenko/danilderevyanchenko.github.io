@@ -541,11 +541,9 @@ input {
 
 #features {
   padding-top: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   color: #404040;
   background: url("../img/bg.png");
-  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 .features__main--title {
@@ -575,6 +573,7 @@ input {
 .features__block {
   max-width: 360px;
   margin: 0 10px;
+  margin-bottom: 20px;
   width: 100%;
   border-radius: 5px;
   display: -webkit-box;
