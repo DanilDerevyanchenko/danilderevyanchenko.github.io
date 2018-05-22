@@ -1,0 +1,40 @@
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+header{
+	width:100%; 
+	min-width: $min-width;
+	text-align:left;	
+	order: 1;	
+    -webkit-order: 1;	
+}
+.header{
+	&__title{
+		padding: 40px 0;
+	}
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}
