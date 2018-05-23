@@ -2,7 +2,7 @@
 @import "base/_fonts";
 //@import "components/_jquery.formstyler";
 //@import "components/_fancybox";
-//@import "components/_slick";
+@import "components/_slick";
 //@import "components/_mCustomScrollbar";
 @import "layout/_header";
 @import "layout/_footer";
@@ -10,3 +10,198 @@
 @import "layout/_media";
 
 
+
+
+
+@media (min-width: 320px) and (max-width: 567px) {
+
+.header__title{
+	text-align: center;
+}
+.shop{
+	&__wrapper{
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+	}
+	&__filter{
+		margin-right: 0;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		max-width: 310px;
+		width: 100%;
+	}
+	&__row{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	&__item{
+		margin-top: 30px;
+		max-width: 270px;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+.similar__goods{
+	text-align: center;
+}
+.slick-list{
+	width: 100%;
+}
+.slick{
+	&-next{
+		left: 67%;
+		top: 98.8%;
+	}
+	&-prev{
+		top: 98.8%;
+		left: 18%;
+	}
+}
+
+
+}
+
+
+@media (min-width: 480px) and (max-width: 567px) {
+.slick-prev{
+	left: 23%;
+}
+}
+@media (min-width: 530px) and (max-width: 567px) {
+.slick-prev{
+	left: 30%;
+}
+.slick-next{
+	left: 62%;
+}
+}
+
+@media (min-width: 568px) and (max-width: 767px) {
+.header__title{
+	text-align: center;
+}
+.wrapper{
+	padding: 0 10px;
+}
+.shop{
+	&__wrapper{
+		flex-wrap: wrap;
+	}
+	&__filter{
+		margin-right: 0;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		max-width: 310px;
+		width: 100%;
+	}
+	&__row{
+		flex-wrap: wrap;
+		padding: 0 10px;
+		justify-content: space-between;
+		max-width: 100%;
+	}
+	&__item{
+	    max-width: 250px;
+	    width: 100%;
+	    margin: 0;
+	    margin-top: 30px;
+	}
+	&__slider{
+		width: 100%;
+	}
+}
+.similar__goods{
+	text-align: center;
+}
+.slick{
+	&-next{
+		left: 60%;
+		top: 98.2%;
+	}
+	&-prev{
+		top: 98.2%;
+		left: 33%;
+	}
+}
+
+}
+
+@media (min-width: 650px) and (max-width: 767px) {
+.shop{
+	&__row{
+		justify-content: space-around;
+	}
+	&__item{
+		max-width: 270px;
+	}
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.shop{
+	&__row{
+		flex-wrap: wrap;
+		padding: 0 10px;
+	}
+	&__item{
+		max-width: 210px;
+		width: 100%;
+		margin-bottom: 30px;
+		&:last-child{
+			margin-bottom: 0;
+			margin-left: 0;
+			margin-right: 30px;
+		}
+	}
+	&__slider{
+		width: 100%;
+	}
+}
+.slick{
+	&-list{
+		max-width: 480px;
+	}
+	&-next{
+		left: 61%;
+		top: 98.2%;
+	}
+	&-prev{
+		top: 98.2%;
+		left: 31%;
+	}
+}
+}
+@media (min-width: 820px) and (max-width: 991px) {
+.shop{
+	&__item{
+	max-width: 230px;
+	}
+}
+.slick{
+	&-list{
+		max-width: 530px;
+	}
+}
+
+}
+@media (min-width: 870px) and (max-width: 991px) {
+.shop{
+	&__item{
+	max-width: 240px;
+	}
+}
+.slick{
+	&-list{
+		max-width: 530px;
+	}
+}
+}
+
+@media (min-width: 991px) and (max-width: 1100px) {
+.shop{
+	&__item{
+		width: 210px;
+	}
+}
+}
