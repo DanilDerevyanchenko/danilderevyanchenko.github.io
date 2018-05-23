@@ -94,6 +94,8 @@ h3{
 	 }
 	 &__row{
 	 	display: flex;
+	 	padding: 0 3px;
+	 	padding-bottom: 10px;
 	 }
 	 &__item{
 	 	margin-left: 30px;
@@ -167,7 +169,7 @@ h3{
 	}
 }
 .similar__goods{
-	padding: 30px 0 15px 0;
+	padding: 35px 0 20px 0;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 30px;
@@ -371,6 +373,7 @@ h3{
 	&__submenu{
 		display: none;
 		padding-top: 5px;
+		height: 180px;
 		padding-bottom: 5px;	
 		border-bottom: 1px solid #e1e1e1;
 		width: 100%;
@@ -440,8 +443,6 @@ h3{
 		position: absolute;
 	}
 	&-next {
-	    width: 15px;
-	    height: 25px;
 	    z-index: 999;
 	    left: 56%;
 	    right: 0;
@@ -449,56 +450,45 @@ h3{
 	    transition: all .6s;
 	    width: 39px;
 		height: 39px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		border: none;
 		border-radius: 50%;
-		border: 1px solid #d7d7d7;
-		background-color: #f1f1f1;
 		color: transparent;
-		background: url(../img/slider-arrow-right.svg) no-repeat 54% 50%;
+		background: url(../img/arrow-right.png) no-repeat 50% 50%;
 	}
 	&-prev{
-	    width: 15px;
-	    height: 25px;
 	    z-index: 999;
 	    left: 39.4%;
 	    right: 0;
 	    top: 96.7%;
 	    transition: all .6s;
-	     width: 39px;
+	    width: 39px;
+	    border: none;
+	    border-radius: 50%;
 		height: 39px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 50%;
-		border: 1px solid #d7d7d7;
-		background-color: #f1f1f1;
 		color: transparent;
-		    background: url(../img/slider-arrow-left.svg) no-repeat 50% 50%;
+		background: url(../img/arrow-left.png) no-repeat 50% 50%;
 	}
 }
 
-
-@media screen and (max-width: 1200px) {
-	
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 3px;
+	height: 65px;
+	background-color: #93deff;
 }
 
-@media screen and (min-width: 992px){
-	
+.mCSB_scrollTools .mCSB_dragger {
+	width: 3px;
+	height: 65px;
+	background-color: #93deff;
+}
+#mCSB_1_dragger_vertical{
+	width: 3px;
+	height: 65px;
+	background-color: #93deff;
 }
 
-@media screen and (max-width: 991px) {
-	
-}
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	
-}
 
-@media screen and (max-width: 767px) {
-	
-}
 
 
 

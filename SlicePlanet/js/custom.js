@@ -72,14 +72,6 @@ $(function(){
 			]
 		});
 	};
-	if($('.scroll').length) {
-		$(".scroll").mCustomScrollbar({
-			axis:"x",
-			theme:"dark-thin",
-			autoExpandScrollbar:true,
-			advanced:{autoExpandHorizontalScroll:true}
-		});
-	};
 	
 	*/
 	
@@ -128,6 +120,7 @@ $(document).ready(function() {
 		$(".filter__material--submenu").slideToggle(500);
 		$(".filter__material--bottom").toggleClass("arrow__top");
 	});
+
 });
 
 $(document).ready(function(){
@@ -192,3 +185,14 @@ $(document).ready(function(){
     ]
   });
  });
+
+$(document).ready(function() {
+	if($('.scroll').length) {
+		$(".scroll").mCustomScrollbar({
+			axis:"y",
+			theme:"minimal",
+			autoExpandScrollbar:true,
+			advanced:{autoExpandHorizontalScroll:true}
+		});
+	};
+});
