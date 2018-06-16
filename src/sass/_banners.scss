@@ -1,0 +1,135 @@
+// banners
+
+#banners {
+	padding-top: 45px;
+	padding-bottom: 75px;
+}
+.banner{
+	&__first{
+		height: 381px;
+		display: flex;
+		background: url(../img/banner1.jpg) no-repeat center;
+		&--special{
+			margin-left: -12px;
+			height: 300px;
+			display: flex;
+			align-items: flex-end;
+			justify-content: flex-start;
+			p {
+				transform: rotate(90deg);
+				color: #ffffff;
+				font-size: 14px;
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+		}
+		&--info{
+			color: #fff;
+			padding-bottom: 50px;
+			margin-left: 25%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			p{
+				font-size: 20px;
+				font-weight: 300;
+				text-transform: uppercase;
+				letter-spacing: 0.4px;
+				margin-bottom: 15px;
+			}
+			h3{
+				margin-bottom: 30px;
+				font-size: 35px;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.7px;
+			}
+			button{
+				padding: 15px 35px;
+				max-width: 150px;
+				color: #ff0000;
+				font-size: 16px;
+				background-color: #fff;
+				transition: all 0.5s;
+				cursor: pointer;
+				&:hover {
+					transition: all 0.5s;
+					background: #ff0000;
+					color: #fff;
+				}
+			}
+		}
+	}
+	&__second{
+		height: 381px;
+		background: url(../img/banner2.jpg) no-repeat center;
+		padding: 80px 37px 50px;
+		display: flex;
+		justify-content: space-between;
+		&--wrapper{
+			height: 100%;
+			display: flex;
+			align-items: flex-end;
+		}
+		&--info{
+			color: #fff;
+			p{
+				font-size: 20px;
+				font-weight: 300;
+				text-transform: uppercase;
+				letter-spacing: 0.4px;
+				margin-bottom: 15px;
+			}
+			h3{
+				margin-bottom: 30px;
+				font-size: 35px;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.7px;
+			}
+			button{
+				padding: 15px 35px;
+				max-width: 150px;
+				color: #fff;
+				font-size: 16px;
+				background-color: #ff0000;
+				transition: all 0.4s;
+				cursor: pointer;
+				&:hover {
+					transition: all 0.4s;
+					background: darken(#ff0000, 7%);
+				}
+			}
+		}
+		&--special{
+			margin-right: 50px;
+			transform: rotate(90deg);
+			color: #ffffff;
+			font-size: 14px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+	}
+}
+
+
+.bslider{
+	padding: 28px 0;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;	
+	}
+	&__block{
+		background-color: #283340;
+		color: #fff;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		width: 145px;
+		height: 98px;
+	}
+}

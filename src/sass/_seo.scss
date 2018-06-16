@@ -1,0 +1,24 @@
+// seo
+
+#seo {
+	padding-bottom: 75px;
+}
+
+.seo{
+	&__title{
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+		& p {
+			font-size: 30px;
+			line-height: 30px;
+			font-weight: 700;
+		}
+	}
+	&__info{
+		margin-bottom: 20px;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 26px;
+		letter-spacing: 0.32px;
+	}
+}
