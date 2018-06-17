@@ -18,6 +18,9 @@
 		-webkit-background-size: cover;
 		background-size: cover;
 	}
+	p {
+		cursor: pointer;
+	}
 }
 
 .footer {
@@ -208,5 +211,43 @@
 		font-size: 14px;
 		font-weight: 300;
 		letter-spacing: 0.28px;
+	}
+	&__recent--title{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__arrow{
+		&-prev {
+			margin-right: 10px;
+			width: 27px;
+			height: 27px;
+			border: 2px solid #c1c1c1;
+			color: #c1c1c1;
+			background: transparent;
+			cursor: pointer;
+			transition: all 0.4s;
+			&:hover {
+				transition: all 0.4s;
+				opacity: 0.7;
+				color: #ff0000;
+				border: 2px solid #ff0000;
+			}
+		}
+		&-next {
+			width: 27px;
+			height: 27px;
+			border: 2px solid #c1c1c1;
+			color: #c1c1c1;
+			background: transparent;
+			cursor: pointer;
+			transition: all 0.4s;
+			&:hover {
+				transition: all 0.4s;
+				opacity: 0.7;
+				color: #ff0000;
+				border: 2px solid #ff0000;
+			}
+		}
 	}
 }

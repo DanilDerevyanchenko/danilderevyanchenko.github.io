@@ -79,8 +79,8 @@
 		</div>	<!-- main__menu -->
 		<main id="main">
 			<div class="container">
-				<div class="main__wrapper">
-					<div class="main__filter">
+				<div class="row main__wrapper">
+					<div class="col-lg-3 main__filter">
 						<div class="main__filter--item main__filter--sky">
 							<p>Ski Equipment</p>
 							<img src="img/main-arrow-right.svg" alt="">
@@ -126,22 +126,63 @@
 							<img src="img/main-arrow-right.svg" alt="">
 						</div>
 					</div>	<!-- main__filter -->
-					<div class="main__info--row">
-						<div class="main__info--wrapper">
-							<div class="main__info">
-								<p class="main__info--sale">-15% off  this week</p>
-								<h2 class="main__info--title">Brand new</h2>
-								<p class="main__info--text">Classic casual</p>
-								<p class="main__info--desc">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod
-								</p>
-								<button class="main__info--button">Shop now</button>
-							</div>	<!-- main__info -->
-							<div class="main__info--aside">
-								<p>-20% off with promocode <br>“Classic2017”</p>
-								<div>speacial offer</div>
-							</div>	<!-- main__info-aside -->
-						</div>	<!-- main__info-wrapper -->
+					<div class="col-lg-9 main__info--row">
+						<div class="main-slider">
+							<div class="main-slider-item">
+								<div class="main__info--wrapper">
+									<div class="main__info">
+										<p class="main__info--sale">-15% off  this week</p>
+										<h2 class="main__info--title">Brand new</h2>
+										<p class="main__info--text">Classic casual</p>
+										<p class="main__info--desc">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod
+										</p>
+										<button class="main__info--button">Shop now</button>
+									</div>	<!-- main__info -->
+									<div class="main__info--aside">
+										<p>-20% off with promocode <br>“Classic2017”</p>
+										<div>speacial offer</div>
+									</div>	<!-- main__info-aside -->
+								</div>	<!-- main__info-wrapper -->
+							</div>
+
+							<div class="main-slider-item">
+								<div class="main__info--wrapper main__info--wrapper-2">
+									<div class="main__info">
+										<p class="main__info--sale">-15% off  this week</p>
+										<h2 class="main__info--title">Brand new</h2>
+										<p class="main__info--text">Classic casual</p>
+										<p class="main__info--desc">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod
+										</p>
+										<button class="main__info--button">Shop now</button>
+									</div>	<!-- main__info -->
+									<div class="main__info--aside">
+										<p>-20% off with promocode <br>“Classic2017”</p>
+										<div>speacial offer</div>
+									</div>	<!-- main__info-aside -->
+								</div>	<!-- main__info-wrapper -->
+							</div>
+
+							<div class="main-slider-item">
+								<div class="main__info--wrapper">
+									<div class="main__info">
+										<p class="main__info--sale">-15% off  this week</p>
+										<h2 class="main__info--title">Brand new</h2>
+										<p class="main__info--text">Classic casual</p>
+										<p class="main__info--desc">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod
+										</p>
+										<button class="main__info--button">Shop now</button>
+									</div>	<!-- main__info -->
+									<div class="main__info--aside">
+										<p>-20% off with promocode <br>“Classic2017”</p>
+										<div>speacial offer</div>
+									</div>	<!-- main__info-aside -->
+								</div>	<!-- main__info-wrapper -->
+							</div>
+						</div>
+
 						<div class="main__subcategories--wrapper">
 							<div class="main__subcategories--item">
 								<img src="img/ski-icon.png" alt="">
@@ -172,18 +213,19 @@
 
 	<section id="featured">
 		<div class="container">
-			<div class="row featured__row">
+			<div class="row">
 				<div class="col-lg-12">
 					<div class="featured__title">
 						<p>Featured Products & Offers</p>
-						<div class="arrows"></div>
-						<span class="map__line"></span>
+						<div class="featured__arrow"></div>
 					</div>	<!-- featured__title -->
+					<span class="featured__line"></span>
 				</div>	<!-- col-lg-12 -->
 			</div>	<!-- row -->
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="featured__block--wrapper">
+			<div class="featured-slider">
+				<div class="featured-slider-item">
+				<div class="row featured__row">
+				<div class="col-lg-3 ">
 					<div class="featured__block">
 						<div class="featured__block-img">
 							<span class="featured__block-sale">-40%</span><img src="img/featured-img1.png" alt=""></div>
@@ -212,10 +254,9 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, cumque!</p>
 						</div>
 					</div>	<!-- featured__block -->
-					</div>
 				</div>	<!-- col-lg-3 -->
 
-				<div class="col-lg-3">
+				<div class="col-lg-3 ">
 					<div class="featured__block">
 						<div class="featured__block-img"><img src="img/featured-img2.png" alt=""></div>
 						<p class="featured__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
@@ -242,7 +283,7 @@
 					</div>	<!-- featured__block -->
 				</div>	<!-- col-lg-3 -->
 
-				<div class="col-lg-3">
+				<div class="col-lg-3 ">
 					<div class="featured__block">
 						<div class="featured__block-img">
 							<span class="featured__block-sale">-40%</span><img src="img/featured-img3.png" alt=""></div>
@@ -407,8 +448,237 @@
 						</div>	<!-- featured__buttons -->
 					</div>	<!-- featured__block -->
 				</div>	<!-- col-lg-3 -->
-
 			</div>	<!-- row -->
+			</div>
+				
+			<div class="featured-slider-item">
+				<div class="row featured__row">
+				<div class="col-lg-3 ">
+					<div class="featured__block">
+						<div class="featured__block-img">
+							<span class="featured__block-sale">-40%</span><img src="img/featured-img1.png" alt=""></div>
+						<p class="featured__price"><s>$ 700.00</s>  $ 599.00</p>
+						<p class="featured__name">
+							Bauer Supreme S 140 JR Topo L Designs
+						</p>
+						<div class="featured__rate">
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>	<!-- stars -->
+							<div>4.0 of 5 (768 reviews)</div>
+						</div>	<!-- featured__rate -->
+						<div class="featured__buttons">
+							<div class="featured__buttons--left">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-exchange-alt"></i>
+							</div>	<!-- featured__buttons-left -->
+							<button>Add To Cart</button>
+						</div>	<!-- featured__buttons -->
+						<div class="featured__block--submenu">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, cumque!</p>
+						</div>
+					</div>	<!-- featured__block -->
+				</div>	<!-- col-lg-3 -->
+
+				<div class="col-lg-3 ">
+					<div class="featured__block">
+						<div class="featured__block-img"><img src="img/featured-img2.png" alt=""></div>
+						<p class="featured__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
+						<p class="featured__name">
+							Bauer Supreme S 140 JR Topo L Designs
+						</p>
+						<div class="featured__rate">
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>	<!-- stars -->
+							<div>4.0 of 5 (768 reviews)</div>
+						</div>	<!-- featured__rate -->
+						<div class="featured__buttons">
+							<div class="featured__buttons--left">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-exchange-alt"></i>
+							</div>	<!-- featured__buttons-left -->
+							<button>Add To Cart</button>
+						</div>	<!-- featured__buttons -->
+					</div>	<!-- featured__block -->
+				</div>	<!-- col-lg-3 -->
+
+				<div class="col-lg-3 ">
+					<div class="featured__block">
+						<div class="featured__block-img">
+							<span class="featured__block-sale">-40%</span><img src="img/featured-img3.png" alt=""></div>
+						<p class="featured__price"><s>$ 700.00</s>  $ 599.00</p>
+						<p class="featured__name">
+							Bauer Supreme S 140 JR Topo L Designs
+						</p>
+						<div class="featured__rate">
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>	<!-- stars -->
+							<div>4.0 of 5 (768 reviews)</div>
+						</div>	<!-- featured__rate -->
+						<div class="featured__buttons">
+							<div class="featured__buttons--left">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-exchange-alt"></i>
+							</div>	<!-- featured__buttons-left -->
+							<button>Add To Cart</button>
+						</div>	<!-- featured__buttons -->
+					</div>	<!-- featured__block -->
+				</div>	<!-- col-lg-3 -->
+
+				<div class="col-lg-3">
+					<div class="featured__block	featured__block-4">
+						<div class="featured__block-img">
+							<span class="featured__block-sale">-40%</span><img src="img/featured-img4.png" alt=""></div>
+						<p class="featured__price"><s>$ 700.00</s>  $ 599.00</p>
+						<p class="featured__name">
+							Bauer Supreme S 140 JR Topo L Designs
+						</p>
+						<div class="featured__rate">
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>	<!-- stars -->
+							<div>4.0 of 5 (768 reviews)</div>
+						</div>	<!-- featured__rate -->
+						<div class="featured__buttons">
+							<div class="featured__buttons--left">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-exchange-alt"></i>
+							</div>	<!-- featured__buttons-left -->
+							<button>Add To Cart</button>
+						</div>	<!-- featured__buttons -->
+					</div>	<!-- featured__block -->
+				</div>	<!-- col-lg-3 -->
+
+				<div class="col-lg-3">
+					<div class="featured__blocks">
+						<div class="featured__blocks-img">
+							<span class="featured__block-sale">-40%</span><img src="img/featured-img5.png" alt=""></div>
+						<p class="featured__price"><s>$ 700.00</s>  $ 599.00</p>
+						<p class="featured__name">
+							Bauer Supreme S 140 JR Topo L Designs
+						</p>
+						<div class="featured__rate">
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>	<!-- stars -->
+							<div>4.0 of 5 (768 reviews)</div>
+						</div>	<!-- featured__rate -->
+						<div class="featured__buttons">
+							<div class="featured__buttons--left">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-exchange-alt"></i>
+							</div>	<!-- featured__buttons-left -->
+							<button>Add To Cart</button>
+						</div>	<!-- featured__buttons -->
+					</div>	<!-- featured__block -->
+				</div>	<!-- col-lg-3 -->
+
+				<div class="col-lg-3">
+					<div class="featured__blocks">
+						<div class="featured__blocks-img"><img src="img/featured-img6.png" alt=""></div>
+						<p class="featured__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
+						<p class="featured__name">
+							Bauer Supreme S 140 JR Topo L Designs
+						</p>
+						<div class="featured__rate">
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>	<!-- stars -->
+							<div>4.0 of 5 (768 reviews)</div>
+						</div>	<!-- featured__rate -->
+						<div class="featured__buttons">
+							<div class="featured__buttons--left">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-exchange-alt"></i>
+							</div>	<!-- featured__buttons-left -->
+							<button>Add To Cart</button>
+						</div>	<!-- featured__buttons -->
+					</div>	<!-- featured__block -->
+				</div>	<!-- col-lg-3 -->
+
+				<div class="col-lg-3">
+					<div class="featured__blocks">
+						<div class="featured__blocks-img"><img src="img/featured-img7.png" alt=""></div>
+						<p class="featured__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
+						<p class="featured__name">
+							Bauer Supreme S 140 JR Topo L Designs
+						</p>
+						<div class="featured__rate">
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>	<!-- stars -->
+							<div>4.0 of 5 (768 reviews)</div>
+						</div>	<!-- featured__rate -->
+						<div class="featured__buttons">
+							<div class="featured__buttons--left">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-exchange-alt"></i>
+							</div>	<!-- featured__buttons-left -->
+							<button>Add To Cart</button>
+						</div>	<!-- featured__buttons -->
+					</div>	<!-- featured__block -->
+				</div>	<!-- col-lg-3 -->
+
+				<div class="col-lg-3">
+					<div class="featured__blocks">
+						<div class="featured__blocks-img">
+							<span class="featured__block-sale">-40%</span><img src="img/featured-img8.png" alt=""></div>
+						<p class="featured__price"><s>$ 700.00</s>  $ 599.00</p>
+						<p class="featured__name">
+							Bauer Supreme S 140 JR Topo L Designs
+						</p>
+						<div class="featured__rate">
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>	<!-- stars -->
+							<div>4.0 of 5 (768 reviews)</div>
+						</div>	<!-- featured__rate -->
+						<div class="featured__buttons">
+							<div class="featured__buttons--left">
+								<i class="far fa-heart"></i>
+								<i class="fas fa-exchange-alt"></i>
+							</div>	<!-- featured__buttons-left -->
+							<button>Add To Cart</button>
+						</div>	<!-- featured__buttons -->
+					</div>	<!-- featured__block -->
+				</div>	<!-- col-lg-3 -->
+			</div>	<!-- row -->
+		</div>
+			</div> <!-- featured__slider -->
 		</div>	<!-- container -->
 	</section>	<!-- featured -->
 
@@ -470,6 +740,28 @@
 						</div>
 					</div>
 				</div>
+				<div class="bslider-item">
+					<div class="bslider__wrapper">
+						<div class="bslider__block">
+							<p>Photo<br>145x98</p>
+						</div>
+						<div class="bslider__block">
+							<p>Photo<br>145x98</p>
+						</div>
+						<div class="bslider__block">
+							<p>Photo<br>145x98</p>
+						</div>
+						<div class="bslider__block">
+							<p>Photo<br>145x98</p>
+						</div>
+						<div class="bslider__block">
+							<p>Photo<br>145x98</p>
+						</div>
+						<div class="bslider__block">
+							<p>Photo<br>145x98</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -480,252 +772,495 @@
 				<div class="col-lg-12">
 					<div class="new__title">
 						<p>New Items</p>
-						<div class="arrows"></div>
-						<span class="map__line"></span>
+						<div class="new__arrow"></div>
 					</div>	<!-- featured__title -->
+					<span class="featured__line"></span>
 				</div>	<!-- col-lg-12 -->
 			</div>	<!-- row -->
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="new__block">
-						<div class="new__block-img">
-							<span class="new__block-sale">-40%</span><img src="img/new1.png" alt="" class=new__img1></div>
-						<p class="new__price"><s>$ 700.00</s>  $ 599.00</p>
-						<p class="new__name">
-							Bauer Supreme S 140 JR Topo L Designs
-						</p>
-						<div class="new__rate">
-							<div class="stars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</div>	<!-- stars -->
-							<div>4.0 of 5 (768 reviews)</div>
-						</div>	<!-- featured__rate -->
-						<div class="new__buttons">
-							<div class="new__buttons--left">
-								<i class="far fa-heart"></i>
-								<i class="fas fa-exchange-alt"></i>
-							</div>	<!-- featured__buttons-left -->
-							<button>Add To Cart</button>
-						</div>	<!-- featured__buttons -->
-					</div>	<!-- featured__block -->
-				</div>	<!-- col-lg-3 -->
+			<div class="new-slider">
+				<div class="new-slider-item">
+					<div class="row new__row">
+						<div class="col-lg-3">
+							<div class="new__block">
+								<div class="new__block-img">
+									<span class="new__block-sale">-40%</span><img src="img/new1.png" alt="" class=new__img1></div>
+								<p class="new__price"><s>$ 700.00</s>  $ 599.00</p>
+								<p class="new__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="new__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="new__buttons">
+									<div class="new__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
 
-				<div class="col-lg-3">
-					<div class="new__block">
-						<div class="new__block-img">
-						<img src="img/new2.png" alt=""></div>
-						<p class="new__price"> $ 599.00</p>
-						<p class="new__name">
-							Bauer Supreme S 140 JR Topo L Designs
-						</p>
-						<div class="new__rate">
-							<div class="stars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</div>	<!-- stars -->
-							<div>4.0 of 5 (768 reviews)</div>
-						</div>	<!-- featured__rate -->
-						<div class="new__buttons">
-							<div class="new__buttons--left">
-								<i class="far fa-heart"></i>
-								<i class="fas fa-exchange-alt"></i>
-							</div>	<!-- featured__buttons-left -->
-							<button>Add To Cart</button>
-						</div>	<!-- featured__buttons -->
-					</div>	<!-- featured__block -->
-				</div>	<!-- col-lg-3 -->
+						<div class="col-lg-3">
+							<div class="new__block">
+								<div class="new__block-img">
+								<img src="img/new2.png" alt=""></div>
+								<p class="new__price"> $ 599.00</p>
+								<p class="new__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="new__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="new__buttons">
+									<div class="new__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
 
-				<div class="col-lg-3">
-					<div class="new__block">
-						<div class="new__block-img">
-							<img src="img/new3.png" alt=""></div>
-						<p class="new__price"><s style="display: none;">$ 700.00</s>  $ 599.00</p>
-						<p class="new__name">
-							Bauer Supreme S 140 JR Topo L Designs
-						</p>
-						<div class="new__rate">
-							<div class="stars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</div>	<!-- stars -->
-							<div>4.0 of 5 (768 reviews)</div>
-						</div>	<!-- featured__rate -->
-						<div class="new__buttons">
-							<div class="new__buttons--left">
-								<i class="far fa-heart"></i>
-								<i class="fas fa-exchange-alt"></i>
-							</div>	<!-- featured__buttons-left -->
-							<button>Add To Cart</button>
-						</div>	<!-- featured__buttons -->
-					</div>	<!-- featured__block -->
-				</div>	<!-- col-lg-3 -->
+						<div class="col-lg-3">
+							<div class="new__block">
+								<div class="new__block-img">
+									<img src="img/new3.png" alt=""></div>
+								<p class="new__price"><s style="display: none;">$ 700.00</s>  $ 599.00</p>
+								<p class="new__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="new__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="new__buttons">
+									<div class="new__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
 
-				<div class="col-lg-3">
-					<div class="new__block">
-						<div class="new__block-img">
-							<span class="new__block-sale">-40%</span><img src="img/new4.png" alt=""></div>
-						<p class="new__price"><s>$ 700.00</s>  $ 599.00</p>
-						<p class="new__name">
-							Bauer Supreme S 140 JR Topo L Designs
-						</p>
-						<div class="new__rate">
-							<div class="stars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</div>	<!-- stars -->
-							<div>4.0 of 5 (768 reviews)</div>
-						</div>	<!-- featured__rate -->
-						<div class="new__buttons">
-							<div class="new__buttons--left">
-								<i class="far fa-heart"></i>
-								<i class="fas fa-exchange-alt"></i>
-							</div>	<!-- featured__buttons-left -->
-							<button>Add To Cart</button>
-						</div>	<!-- featured__buttons -->
-					</div>	<!-- featured__block -->
-				</div>	<!-- col-lg-3 -->
-			</div>	<!-- row -->
+						<div class="col-lg-3">
+							<div class="new__block">
+								<div class="new__block-img">
+									<span class="new__block-sale">-40%</span><img src="img/new4.png" alt=""></div>
+								<p class="new__price"><s>$ 700.00</s>  $ 599.00</p>
+								<p class="new__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="new__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="new__buttons">
+									<div class="new__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+					</div>	<!-- row -->
+				</div>	<!-- new-slider-item -->
+
+				<div class="new-slider-item">
+					<div class="row new__row">
+						<div class="col-lg-3">
+							<div class="new__block">
+								<div class="new__block-img">
+									<span class="new__block-sale">-40%</span><img src="img/new1.png" alt="" class=new__img1></div>
+								<p class="new__price"><s>$ 700.00</s>  $ 599.00</p>
+								<p class="new__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="new__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="new__buttons">
+									<div class="new__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+
+						<div class="col-lg-3">
+							<div class="new__block">
+								<div class="new__block-img">
+								<img src="img/new2.png" alt=""></div>
+								<p class="new__price"> $ 599.00</p>
+								<p class="new__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="new__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="new__buttons">
+									<div class="new__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+
+						<div class="col-lg-3">
+							<div class="new__block">
+								<div class="new__block-img">
+									<img src="img/new3.png" alt=""></div>
+								<p class="new__price"><s style="display: none;">$ 700.00</s>  $ 599.00</p>
+								<p class="new__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="new__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="new__buttons">
+									<div class="new__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+
+						<div class="col-lg-3">
+							<div class="new__block">
+								<div class="new__block-img">
+									<span class="new__block-sale">-40%</span><img src="img/new4.png" alt=""></div>
+								<p class="new__price"><s>$ 700.00</s>  $ 599.00</p>
+								<p class="new__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="new__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="new__buttons">
+									<div class="new__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+					</div>	<!-- row -->
+				</div>	<!-- new-slider-item -->
+			</div> <!-- new-slider -->
 		</div>	<!-- container -->
 	</section>	<!-- new -->
 
 	<section id="recently">
 		<div class="container">
-			<div class="row recently__row">
+			<div class="row">
 				<div class="col-lg-12">
 					<div class="recently__title">
 						<p>Recently Viewed</p>
-						<div class="arrows"></div>
-						<span class="map__line"></span>
+						<div class="recently__arrow"></div>
 					</div>	<!-- featured__title -->
+					<span class="featured__line"></span>
 				</div>	<!-- col-lg-12 -->
 			</div>	<!-- row -->
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="recently__block">
-						<div class="recently__block-img">
-							<span class="recently__block-sale">-40%</span><img src="img/recently1.png" alt="" class=recently__img1></div>
-						<p class="recently__price"><s>$ 700.00</s>  $ 599.00</p>
-						<p class="recently__name">
-							Bauer Supreme S 140 JR Topo L Designs
-						</p>
-						<div class="recently__rate">
-							<div class="stars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</div>	<!-- stars -->
-							<div>4.0 of 5 (768 reviews)</div>
-						</div>	<!-- featured__rate -->
-						<div class="recently__buttons">
-							<div class="recently__buttons--left">
-								<i class="far fa-heart"></i>
-								<i class="fas fa-exchange-alt"></i>
-							</div>	<!-- featured__buttons-left -->
-							<button>Add To Cart</button>
-						</div>	<!-- featured__buttons -->
-					</div>	<!-- featured__block -->
-				</div>	<!-- col-lg-3 -->
 
-				<div class="col-lg-3">
-					<div class="recently__block">
-						<div class="recently__block-img">
-							<span class="recently__block-sale" style="display: none">-40%</span><img src="img/recently2.png" alt="" class=recently__img1></div>
-						<p class="recently__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
-						<p class="recently__name">
-							Bauer Supreme S 140 JR Topo L Designs
-						</p>
-						<div class="recently__rate">
-							<div class="stars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</div>	<!-- stars -->
-							<div>4.0 of 5 (768 reviews)</div>
-						</div>	<!-- featured__rate -->
-						<div class="recently__buttons">
-							<div class="recently__buttons--left">
-								<i class="far fa-heart"></i>
-								<i class="fas fa-exchange-alt"></i>
-							</div>	<!-- featured__buttons-left -->
-							<button>Add To Cart</button>
-						</div>	<!-- featured__buttons -->
-					</div>	<!-- featured__block -->
-				</div>	<!-- col-lg-3 -->
+			<div class="recently-slider">
+				<div class="recently-slider-item">
+					<div class="row recently__row">
+						<div class="col-lg-3">
+							<div class="recently__block">
+								<div class="recently__block-img">
+									<span class="recently__block-sale">-40%</span><img src="img/recently1.png" alt="" class=recently__img1></div>
+								<p class="recently__price"><s>$ 700.00</s>  $ 599.00</p>
+								<p class="recently__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="recently__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="recently__buttons">
+									<div class="recently__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
 
-				<div class="col-lg-3">
-					<div class="recently__block">
-						<div class="recently__block-img">
-							<span class="recently__block-sale" style="display: none">-40%</span><img src="img/recently3.png" alt="" class=recently__img1></div>
-						<p class="recently__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
-						<p class="recently__name">
-							Bauer Supreme S 140 JR Topo L Designs
-						</p>
-						<div class="recently__rate">
-							<div class="stars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</div>	<!-- stars -->
-							<div>4.0 of 5 (768 reviews)</div>
-						</div>	<!-- featured__rate -->
-						<div class="recently__buttons">
-							<div class="recently__buttons--left">
-								<i class="far fa-heart"></i>
-								<i class="fas fa-exchange-alt"></i>
-							</div>	<!-- featured__buttons-left -->
-							<button>Add To Cart</button>
-						</div>	<!-- featured__buttons -->
-					</div>	<!-- featured__block -->
-				</div>	<!-- col-lg-3 -->
+						<div class="col-lg-3">
+							<div class="recently__block">
+								<div class="recently__block-img">
+									<span class="recently__block-sale" style="display: none">-40%</span><img src="img/recently2.png" alt="" class=recently__img1></div>
+								<p class="recently__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
+								<p class="recently__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="recently__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="recently__buttons">
+									<div class="recently__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
 
-				<div class="col-lg-3">
-					<div class="recently__block">
-						<div class="recently__block-img">
-							<img src="img/watermark.png" alt="" class="watermark">
-							<span class="recently__block-sale">-40%</span><img src="img/recently4.png" alt=""></div>
-						<p class="recently__price out__price"><s >$ 700.00</s>  $ 599.00</p>
-						<p class="recently__name">
-							Bauer Supreme S 140 JR Topo L Designs
-						</p>
-						<div class="recently__rate">
-							<div class="stars">
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="fas fa-star"></i>
-								<i class="far fa-star"></i>
-							</div>	<!-- stars -->
-							<div>4.0 of 5 (768 reviews)</div>
-						</div>	<!-- featured__rate -->
-						<div class="recently__buttons">
-							<div class="recently__buttons--left">
-								<i class="far fa-heart"></i>
-								<i class="fas fa-exchange-alt"></i>
-							</div>	<!-- featured__buttons-left -->
-							<button class="out__button">Add To Cart</button>
-						</div>	<!-- featured__buttons -->
-					</div>	<!-- featured__block -->
-				</div>	<!-- col-lg-3 -->
-			</div>	<!-- row -->
+						<div class="col-lg-3">
+							<div class="recently__block">
+								<div class="recently__block-img">
+									<span class="recently__block-sale" style="display: none">-40%</span><img src="img/recently3.png" alt="" class=recently__img1></div>
+								<p class="recently__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
+								<p class="recently__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="recently__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="recently__buttons">
+									<div class="recently__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+
+						<div class="col-lg-3">
+							<div class="recently__block">
+								<div class="recently__block-img">
+									<img src="img/watermark.png" alt="" class="watermark">
+									<span class="recently__block-sale">-40%</span><img src="img/recently4.png" alt=""></div>
+								<p class="recently__price out__price"><s >$ 700.00</s>  $ 599.00</p>
+								<p class="recently__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="recently__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="recently__buttons">
+									<div class="recently__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button class="out__button">Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+					</div>	<!-- row -->
+				</div>	<!-- recently-slider-item -->
+
+				<div class="recently-slider-item">
+					<div class="row recently__row">
+						<div class="col-lg-3">
+							<div class="recently__block">
+								<div class="recently__block-img">
+									<span class="recently__block-sale">-40%</span><img src="img/recently1.png" alt="" class=recently__img1></div>
+								<p class="recently__price"><s>$ 700.00</s>  $ 599.00</p>
+								<p class="recently__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="recently__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="recently__buttons">
+									<div class="recently__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+
+						<div class="col-lg-3">
+							<div class="recently__block">
+								<div class="recently__block-img">
+									<span class="recently__block-sale" style="display: none">-40%</span><img src="img/recently2.png" alt="" class=recently__img1></div>
+								<p class="recently__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
+								<p class="recently__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="recently__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="recently__buttons">
+									<div class="recently__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+
+						<div class="col-lg-3">
+							<div class="recently__block">
+								<div class="recently__block-img">
+									<span class="recently__block-sale" style="display: none">-40%</span><img src="img/recently3.png" alt="" class=recently__img1></div>
+								<p class="recently__price"><s style="display: none">$ 700.00</s>  $ 599.00</p>
+								<p class="recently__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="recently__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="recently__buttons">
+									<div class="recently__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button>Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+
+						<div class="col-lg-3">
+							<div class="recently__block">
+								<div class="recently__block-img">
+									<img src="img/watermark.png" alt="" class="watermark">
+									<span class="recently__block-sale">-40%</span><img src="img/recently4.png" alt=""></div>
+								<p class="recently__price out__price"><s >$ 700.00</s>  $ 599.00</p>
+								<p class="recently__name">
+									Bauer Supreme S 140 JR Topo L Designs
+								</p>
+								<div class="recently__rate">
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>	<!-- stars -->
+									<div>4.0 of 5 (768 reviews)</div>
+								</div>	<!-- featured__rate -->
+								<div class="recently__buttons">
+									<div class="recently__buttons--left">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-exchange-alt"></i>
+									</div>	<!-- featured__buttons-left -->
+									<button class="out__button">Add To Cart</button>
+								</div>	<!-- featured__buttons -->
+							</div>	<!-- featured__block -->
+						</div>	<!-- col-lg-3 -->
+					</div>	<!-- row -->
+				</div>	<!-- recently-slider-item -->
+
+			</div> <!-- recently-slider -->
 		</div>	<!-- container -->
 	</section>	<!-- new -->
 
@@ -735,7 +1270,6 @@
 				<div class="col-lg-12">
 					<div class="news__title">
 						<p>News</p>
-						<div class="arrows"></div>
 						<span class="map__line"></span>
 					</div>	<!-- featured__title -->
 				</div>	<!-- col-lg-12 -->
@@ -960,45 +1494,86 @@
 				</div>	<!-- col-lg-3 -->
 				<div class="col-lg-3">
 					<div class="footer__block footer__block-last">
-						<p class="footer__block--title">recent news</p>
-						<span class="footer__block--line"></span>
-						<div class="footer__item--wrapper">
-							<div class="footer__item">
-								<img src="img/footer__news.jpg" alt="" class="footer__item--img">
-								<div class="footer__item--info">
-									<p class="footer__item--title">
-										Aenean Efficitur Dictum
-									</p>
-									<p class="footer__item--text">
-										Lorem ipsum dolor sit amet, cons...
-									</p>
-								</div>
-							</div>	<!-- footer__item -->
-							<div class="footer__item">
-								<img src="img/footer__news2.jpg" alt="" class="footer__item--img">
-								<div class="footer__item--info">
-									<p class="footer__item--title">
-										Aenean Efficitur Dictum
-									</p>
-									<p class="footer__item--text">
-										Lorem ipsum dolor sit amet, cons...
-									</p>
-								</div>
-							</div>	<!-- footer__item -->
-							<div class="footer__item">
-								<img src="img/footer__news3.jpg" alt="" class="footer__item--img">
-								<div class="footer__item--info">
-									<p class="footer__item--title">
-										Aenean Efficitur Dictum
-									</p>
-									<p class="footer__item--text">
-										Lorem ipsum dolor sit amet, cons...
-									</p>
-								</div>
-							</div>	<!-- footer__item -->
+						<div class="footer__block--title footer__recent--title">
+							<p>recent news</p>
+							<div class="footer__arrow"></div>
 						</div>
-					</div>
-				</div>
+						<span class="footer__block--line"></span>
+						<div class="footer__slider">
+							<div class="footer__slider-item footer__item--wrapper">
+								<div class="footer__item">
+									<img src="img/footer__news.jpg" alt="" class="footer__item--img">
+									<div class="footer__item--info">
+										<p class="footer__item--title">
+											Aenean Efficitur Dictum
+										</p>
+										<p class="footer__item--text">
+											Lorem ipsum dolor sit amet, cons...
+										</p>
+									</div>
+								</div>	<!-- footer__item -->
+								<div class="footer__item">
+									<img src="img/footer__news2.jpg" alt="" class="footer__item--img">
+									<div class="footer__item--info">
+										<p class="footer__item--title">
+											Aenean Efficitur Dictum
+										</p>
+										<p class="footer__item--text">
+											Lorem ipsum dolor sit amet, cons...
+										</p>
+									</div>
+								</div>	<!-- footer__item -->
+								<div class="footer__item">
+									<img src="img/footer__news3.jpg" alt="" class="footer__item--img">
+									<div class="footer__item--info">
+										<p class="footer__item--title">
+											Aenean Efficitur Dictum
+										</p>
+										<p class="footer__item--text">
+											Lorem ipsum dolor sit amet, cons...
+										</p>
+									</div>
+								</div>	<!-- footer__item -->
+							</div>
+
+							<div class="footer__slider-item footer__item--wrapper">
+								<div class="footer__item">
+									<img src="img/footer__news.jpg" alt="" class="footer__item--img">
+									<div class="footer__item--info">
+										<p class="footer__item--title">
+											Aenean Efficitur Dictum
+										</p>
+										<p class="footer__item--text">
+											Lorem ipsum dolor sit amet, cons...
+										</p>
+									</div>
+								</div>	<!-- footer__item -->
+								<div class="footer__item">
+									<img src="img/footer__news2.jpg" alt="" class="footer__item--img">
+									<div class="footer__item--info">
+										<p class="footer__item--title">
+											Aenean Efficitur Dictum
+										</p>
+										<p class="footer__item--text">
+											Lorem ipsum dolor sit amet, cons...
+										</p>
+									</div>
+								</div>	<!-- footer__item -->
+								<div class="footer__item">
+									<img src="img/footer__news3.jpg" alt="" class="footer__item--img">
+									<div class="footer__item--info">
+										<p class="footer__item--title">
+											Aenean Efficitur Dictum
+										</p>
+										<p class="footer__item--text">
+											Lorem ipsum dolor sit amet, cons...
+										</p>
+									</div>
+								</div>	<!-- footer__item -->
+							</div>	<!-- footer__slider-item --> 
+						</div>	<!-- footer__slider -->
+					</div>	<!-- footer__block -->
+				</div>	<!-- col-lg-3 -->
 			</div>	<!-- row -->
 			<div class="row">
 				<div class="col-lg-12">
