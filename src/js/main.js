@@ -265,8 +265,8 @@ $(document).ready(function(){
     dots: false,
     arrows: true,
     infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 6,
+    slidesToScroll: 6,
     draggable: true,
     prevArrow: '<button class="bslider__arrow-prev"><i class="fas fa-angle-left"></i></button>',
     nextArrow: '<button class="bslider__arrow-next"><i class="fas fa-angle-right"></i></button>',
@@ -274,8 +274,8 @@ $(document).ready(function(){
       {
         breakpoint: 1600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 6,
+          slidesToScroll: 6,
           infinite: true,
           autoplay: false,
           arrows: true,
@@ -285,8 +285,8 @@ $(document).ready(function(){
       {
         breakpoint: 1199,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 6,
+          slidesToScroll: 6,
           infinite: true,
           autoplay: false,
           dots: false
@@ -295,9 +295,9 @@ $(document).ready(function(){
        {
         breakpoint: 991,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          arrows: true,
           autoplay: false,
           dots: false
         }
@@ -305,9 +305,9 @@ $(document).ready(function(){
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          arrows: true,
           autoplay: false,
           dots: false
         }
@@ -315,9 +315,9 @@ $(document).ready(function(){
       {
         breakpoint: 575,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: true
         }
       }
       // You can unslick at a given breakpoint now by adding:

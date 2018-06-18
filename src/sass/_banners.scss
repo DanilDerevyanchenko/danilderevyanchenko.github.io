@@ -112,17 +112,13 @@
 	}
 }
 
-
 .bslider{
-	padding: 28px 0;
+	padding: 28px 50px;
 	border-top: 1px solid #d3d3d3;
 	border-bottom: 1px solid #d3d3d3;
-	&__wrapper{
-		display: flex;
-		position: relative;
-		justify-content: space-evenly;
-		padding: 0 10px;
-		align-items: center;	
+	&__wrapper {
+		 padding: 28px 0;
+		 position: relative;
 	}
 	&__block{
 		background-color: #283340;
