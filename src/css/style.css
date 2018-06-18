@@ -2878,6 +2878,10 @@ input {
     font-size: 12px;
     padding: 5px 30px;
   }
+
+  .menu__toggle {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
@@ -2890,6 +2894,10 @@ input {
   }
 
   .recently__rate div br {
+    display: none;
+  }
+
+  .menu__toggle {
     display: none;
   }
 }
