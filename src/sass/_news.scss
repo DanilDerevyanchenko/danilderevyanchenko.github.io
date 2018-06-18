@@ -16,6 +16,10 @@
 		}
 	}
 	&__block{
+		& img {
+			max-width: 100%;
+			height: auto;
+		}
 		&--date{
 			padding-top: 30px;
 			display: flex;

@@ -363,7 +363,7 @@ $(document).ready(function(){
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           autoplay: false,
           dots: false
         }
@@ -373,7 +373,7 @@ $(document).ready(function(){
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           autoplay: false,
           dots: false
         }
@@ -383,7 +383,7 @@ $(document).ready(function(){
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false
+          arrows: true
         }
       }
       // You can unslick at a given breakpoint now by adding:
@@ -392,6 +392,27 @@ $(document).ready(function(){
     ]
   });
 
+ });
+
+ $(document).ready(function() {
+   var link        = $('.menu__toggle');
+   var link_active = $('.menu__toggle-active');
+   var  menu       = $('.account__menu');
+   var nav_link    = $('.account__link');
+    link.click(function(){
+         link.toggleClass('menu__toggle-active');
+         menu.toggleClass('account__menu_active');
+    });
+    nav_link.click(function(){
+       link.toggleClass('menu__toggle-active');
+       menu.toggleClass('account__menu_active');
+    });
+ });
+
+ $(document).ready(function() {
+  $(".main__item--active").click(function() {
+    $(".main__filter").slideToggle(500);
+  });
  });
 
 
