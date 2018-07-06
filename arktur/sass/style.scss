@@ -1,0 +1,446 @@
+@import "specification";
+@import "mobmenu";
+@import "header";
+@import "about";
+@import "statistic";
+@import "footer";
+
+
+@media (max-width: 1200px) {
+	.logo {
+		margin-right: 3%;
+	}
+	.main {
+		&__wrapper {
+			flex-direction: column;
+		}
+	}
+	#footer {
+		padding-top: 60px;
+    	padding-bottom: 60px;
+	}
+	.about {
+		&__img {
+			max-width: 100%;
+			height: auto;
+		}
+		&__info {
+			padding-left: 0;
+			padding-top: 70px;
+		}
+		&__grid {
+			padding-top: 85px;
+
+		}
+	}
+	
+	.testimonials{
+		&__block {
+			margin-top: 10px;
+		}
+		&__text {
+			font-size: 12px;
+		}
+	}
+	.statistic {
+		&__info {
+			width: 160px;
+			height: 160px;
+		}
+	}
+	.pos_abs {
+		display: none;
+	}
+	#main {
+		padding-bottom: 50px;
+	}
+	.main {
+		&__left {
+			padding-top: 50px;
+    		padding-bottom: 50px;
+    		&--button {
+    			margin-bottom: 0;
+    		}
+		}
+		&__right {
+			padding-top: 40px;
+			&--wrapper {
+				    width: 100%;
+				    border-radius: 5px;
+				    position: relative;
+				    background: #fff;
+				    z-index: 0;
+				    padding-left: 0;
+			}
+			&--title {
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+@media (max-width: 991px) {
+	#footer {
+		padding-top: 50px;
+    	padding-bottom: 50px;
+	}
+	#main {
+		padding-bottom: 50px;
+	}
+	.main {
+		&__left {
+			padding-top: 50px;
+    		padding-bottom: 50px;
+    		&--button {
+    			margin-bottom: 0;
+    		}
+		}
+		&__right {
+			padding-top: 40px;
+			&--wrapper {
+				    width: 100%;
+				    border-radius: 5px;
+				    position: relative;
+				    background: #fff;
+				    z-index: 0;
+				    padding-left: 0;
+			}
+			&--title {
+				font-size: 30px;
+				line-height: 36px;
+				margin-bottom: 40px;
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+	.pos_abs {
+		display: none;
+	}
+	.about {
+		&__info {
+			text-align: left;
+			padding-top: 40px;
+			h2 {
+				font-size: 26px;
+				line-height: 26px;
+			}
+			p {
+				margin-top: 18px;
+				font-size: 14px;
+			}
+		}
+		&__grid {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+	}
+
+	.reserves {
+		&__grid {
+			padding-right: 0;
+			border: none;
+		}
+	}
+	.exchanges {
+		&__grid {
+			padding-right: 0;
+			border: none;
+			padding-left: 10px;
+		}
+		&__block {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+	.testimonials{
+		&__block {
+			margin-top: 10px;
+		}
+		&__text {
+			font-size: 13px;
+			br {
+				display: none;
+			}
+		}
+		&__grid {
+			padding-left: 8px;
+		}
+	}
+	.statistic {
+		&__block {
+			margin-bottom: 35px;
+		}
+		&__text {
+			font-size: 18px;
+		}
+		&__info {
+			width: 150px;
+			height: 150px;
+		}
+	}
+	#statistic {
+		padding-bottom: 40px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	#footer {
+		padding-top: 40px;
+    	padding-bottom: 40px;
+	}
+	#main {
+		padding-bottom: 40px;
+	}
+	.main{
+		&__left {
+			padding-top: 40px;
+			padding-bottom: 40px;
+			&--title {
+				font-size: 26px;
+			}
+		}
+		&__right{
+			&--title {
+				font-size: 26px;
+			}
+		}
+	}
+	.about{
+		&__info {
+			padding-top: 0;
+			p {
+				font-size: 12px;
+			}
+		}
+		&__img {
+			margin-top: 10px;
+		}
+		&__grid{
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+	.reserves{
+		&__grid {
+			h2 {
+				font-size: 26px;
+			}
+		}
+	}
+	.exchanges__grid h2 {
+		font-size: 26px;
+	}
+	.testimonials__grid h2 {
+		font-size: 26px;
+	}
+	.statistic {
+		&__info {
+			width: 140px;
+    		height: 140px;
+    		img {
+    			max-width: 100%;
+    			height: auto;
+    		}
+		}
+	}
+	.footer__right {
+		h2 {
+			margin-bottom: 10px;
+		}
+	}
+	.footer__title {
+		margin-bottom: 40px;
+	}
+}
+
+
+
+@media (max-width: 575px) {
+
+	.heading {
+		justify-content: space-between;
+	}
+
+
+	#footer {
+		padding-top: 30px;
+    	padding-bottom: 30px;
+	}
+	.footer__title {
+		margin-bottom: 30px;
+	}
+	.statistic{
+		&__info{
+			width: 135px;
+			height: 135px;
+			p {
+				margin-top: 10px;
+			}
+		}
+		&__image {
+			max-width: 43%;
+			height: auto;
+		}
+	}
+	#main {
+		padding-bottom: 30px;
+	}
+	.main{
+		&__left {
+			padding-top: 30px;
+			padding-bottom: 30px;
+			&--title {
+				font-size: 24px;
+			}
+		}
+		&__right{
+			&--title {
+				font-size: 24px;
+			}
+		}
+	}
+	.about{
+		&__info {
+			p {
+				font-size: 12px;
+			}
+		}
+		&__img {
+			max-width: 70%;
+			margin-top: 10px;
+		}
+		&__grid{
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+	}
+	.reserves{
+		&__grid {
+			h2 {
+				font-size: 24px;
+			}
+		}
+	}
+	.exchanges__grid h2 {
+		font-size: 24px;
+	}
+	.testimonials__grid h2 {
+		font-size: 24px;
+	}
+	.about{
+		&__img {
+			display: block;
+			margin: 0 auto;
+		}
+		&__info {
+			text-align: center;
+			padding-top: 30px;
+			p {
+				max-width: 100%;
+			}
+		}
+	}
+	.main__send--wrapper div { 
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: center;
+	}
+	.main__receive {
+		height: 48px;
+		margin-bottom: 20px;
+	}
+	.main__send--item {
+    max-width: 235px;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 480px) {
+	.main{
+		&__send {
+			&--wrapper {
+				flex-direction: column;
+				align-items: center;
+			}
+			&--item {
+				max-width: 235px;
+				margin-right: 0;
+				margin-bottom: 20px;
+			}
+		}
+		&__left {
+			&--button {
+				margin-top: 0;
+			}
+		}
+		&__right {
+			&--title {
+				br {
+					display: block;
+				}
+			}
+			&--item {
+				margin-right: 40px;
+   				margin-bottom: 40px;
+			}
+		}
+	}
+	.about {
+		&__info {
+			p {
+				padding: 0 15px;
+			}
+		}
+	}
+	.footer__title {
+		flex-direction: column;
+	}
+	.footer__logo {
+		padding-top: 0px;
+		padding-bottom: 25px;
+    	height: auto;
+	}
+	#statistic {
+		padding-bottom: 30px;
+	}
+	&__img {
+			max-width: 60%;
+		}
+}
+
+@media (max-width: 420px) {
+	
+ .main {
+ 	&__menu {
+ 		
+ 	}
+ }
+
+ .main__right--item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.statistic__text {
+    font-size: 15px;
+}
+.statistic__info p {
+	font-size: 13px;
+}
+.statistic__info img {
+	max-width: 85%;
+	height: auto;
+}
+
+}
+
+

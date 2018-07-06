@@ -1,0 +1,241 @@
+// about 
+
+#about {
+	padding-top: 37px;
+	min-height: 500px;
+}
+.about {
+	&__info {
+		padding-top: 78px;
+		padding-left: 70px;
+		h2 {
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 24px;
+		}
+		p {
+			margin-top: 15px;
+			font-size: 16px;
+			line-height: 24px;
+			max-width: 470px;
+		}
+	}
+	&__grid {
+		padding-top: 95px;
+		padding-bottom: 105px;
+	}
+}
+.reserves {
+	&__grid {
+		padding-top: 15px;
+		padding-right: 10px;
+		padding-bottom: 22px;
+		border-right: 1px solid #d5d5d5;
+		h2 {
+			margin-bottom: 15px;
+			text-align: center;
+			color: #282e7e;
+			font-size: 30px;
+			font-weight: 700;
+		}
+	}
+	&__block {
+		padding: 6px 0;
+		padding-left: 24px;
+		margin-top: 6px;
+		width: 100%;
+		border-radius: 5px;
+		background-color: #f4f4f4;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__name {
+		display: flex;
+		align-items: center;
+		img {
+			margin-right: 18px;
+		}
+		p {
+			font-size: 14px;
+			font-weight: 700;
+		}
+	}
+	&__price {
+
+		b {
+			font-size: 14px;
+		}
+		sup {
+			font-size: 12px;
+		}
+	}
+}
+
+.exchanges {
+	&__grid {
+		padding-top: 15px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		border-right: 1px solid #d5d5d5;
+		h2 {
+			margin-bottom: 15px;
+			text-align: center;
+			color: #282e7e;
+			font-size: 30px;
+			font-weight: 700;
+		}
+	}
+	&__block {
+		padding-top: 13px;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		justify-content: space-between;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #f4f4f4;
+		&:last-child {
+			border: none;
+		}
+	}
+	&__arkt {
+		display: flex;
+		img {
+			margin-top: 5px;
+		}
+		b {
+			margin-left: 5px;
+			font-size: 14px;
+		}
+		sup {
+			font-size: 12px;
+		}
+	}
+	&__btc {
+		display: flex;
+		img {
+			margin-top: 5px;
+		}
+		b {
+			margin-left: 7px;
+			font-size: 14px;
+		}
+		sup {
+			font-size: 12px;
+		}
+	}
+}
+.testimonials {
+	&__grid {
+		padding-top: 25px;
+	    padding-bottom: 18px;
+		h2 {
+			margin-bottom: 15px;
+		    text-align: center;
+		    color: #282e7e;
+		    font-size: 30px;
+		    line-height: 30px;
+		    font-weight: 700;
+		}
+	}
+	&__block {
+		display: flex;
+		margin-top: 5px;
+	}
+	&__img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		width: 45px;
+		height: 40px;
+		border: 3px solid #b87b8f;
+		margin-right: 6px;
+		img {
+			width: 23px;
+			height: 23px;
+		}
+	}
+	&__info {
+		width: 100%;
+		border-radius: 5px;
+		background-color: #f4f4f4;
+		padding: 8px 14px;
+	}
+	&__title {
+		margin-bottom: 7px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		h3 {
+			font-size: 14px;
+		}
+		p {
+			color: #bebebe;
+			font-size: 14px;
+		}
+	}
+	&__text {
+		color: #282e7e;
+		font-size: 13px;
+		line-height: 22px;
+	}
+	&__show {
+		margin-top: 3px;
+		text-align: right;
+		line-height: 14px;
+		a {
+			color: #b87b8f;
+			font-size: 14px;
+			font-weight: 700;
+			text-decoration: underline;
+			transition: all 0.4s;
+			&:hover {
+				transition: all 0.4s;
+				text-decoration: none;
+			}
+		}
+	}
+	&__view {
+		margin-top: 15px;
+		display: block;
+		text-align: center;
+		color: #282e7e;
+		font-size: 18px;
+		font-weight: 700;
+		text-decoration: underline;
+		transition: all 0.4s;
+		&:hover {
+				transition: all 0.4s;
+				text-decoration: none;
+			}
+	}
+}
+
+.zcash__block{
+	padding-right: 28px;
+}
+.monero__block {
+	padding-right: 24px;
+}
+.ripple__block{
+	padding-right: 28px;
+}
+.lite__block {
+	padding-right: 29px;
+}
+.dash__block {
+	padding-right: 17px;
+}
+.ethereum__block {
+	padding-right: 28px;
+}
+.bch__block {
+	padding-right: 26px;
+}
+.btc__block {
+	padding-right: 29px;
+}
+.arktur__block {
+	padding-right: 20px;
+}
