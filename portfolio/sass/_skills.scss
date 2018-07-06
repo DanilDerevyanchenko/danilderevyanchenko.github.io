@@ -1,0 +1,75 @@
+/* Skills */
+
+#skills{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: url(../img/bg.png);
+}
+.skills{
+	&__title{
+		text-align: center;
+		margin-bottom: 10px;
+		color: #555555;
+		font-size: 24px;
+		font-weight: 700;
+		letter-spacing: 1.8px;
+		line-height: 24px;
+		text-transform: uppercase;
+	}
+	&__grid{
+		margin-top: 60px;
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	&__block{
+		min-width: 26%;
+		margin-bottom: 35px;
+	}
+	&__img{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__text{
+		text-align: center;
+		margin-top: 20px;
+		color: #555555;
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+	}
+}
+
+
+@media (min-width: 0px) and (max-width: 480px){
+
+.skills{
+	&__text{
+		font-size: 12px;
+	}
+	&__block{
+		min-width: 100%;
+	}
+}
+
+} /* mobile screen */ 
+
+
+@media (min-width: 568px) and (max-width: 767px){
+
+.skills{
+	&__text{
+		font-size: 12px;
+		margin-top: 22px;
+		line-height: 21px;
+	}
+	&__block{
+
+	}
+}
+
+} /* mobile lg screen */
