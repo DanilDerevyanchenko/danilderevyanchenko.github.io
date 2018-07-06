@@ -673,10 +673,10 @@ input {
 }
 
 .pos_abs {
-  width: 58%;
+  width: 55%;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 24px;
   z-index: 1;
   height: 100.1%;
 }
